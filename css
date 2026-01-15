@@ -1,0 +1,92 @@
+:root {
+  /*colors*/
+  --color-primary: #011c44;
+  --color-accent: #2b7fff;
+  --color-white: #ffffff;
+  --color-secondary-lighter: #747272;
+  --color-secondary-darker: #4a4a4a;
+  --color-primary-black: #000000;
+
+  /*buttons*/
+  --button-background: var(--color-accent);
+  --button-text: var(--color-white);
+  --button-border: var(--color-accent);
+}
+
+/* base*/
+
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+/*header*/
+
+.header-nav {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.header-nav:hover {
+  color: var(--color-accent);
+}
+
+/*main*/
+
+.cosmetics-clinic-text {
+  color: var(--color-primary);
+}
+
+.hero-title {
+  color: var(--color-accent);
+}
+
+.button {
+  background-color: var(--button-background);
+  color: var(--button-text);
+  border: none;
+  border-radius: 32px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: transparent;
+  color: var(--color-primary);
+  border: 2px solid var(--color-accent);
+  border-radius: 32px;
+  cursor: pointer;
+}
+
+.book-a-consultation-text {
+  color: var(--color-secondary-darker);
+}
+
+.title-h2 {
+  color: var(--color-primary);
+}
+
+.accent-color {
+  color: var(--color-accent);
+}
+
+.text-h2 {
+  color: var(--color-primary);
+}
+
+.why-people-choose-us {
+  color: var(--color-primary-black);
+}
+
+.title-h3 {
+  color: var(--color-white);
+}
+
+/*footer*/
+
+.footer-text {
+  color: var(--color-white);
+}
+
+.privacy-policy {
+  color: var(--color-secondary-lighter);
+}
